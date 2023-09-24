@@ -50,5 +50,3 @@ foodElement.innerHTML += `<br>${favoriteFoods.join("/")}`;
 
 
 
-
-
