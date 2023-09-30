@@ -18,10 +18,10 @@ function subtract (number1,number2){
     return number1 - number2;
 }
 
-function subtractNumbers(subtract1,subtract2){
-    let subtractNumber1 = Number(document.querySelector(`#subtract1`).value);
-    let subtractNumber2 = Number(document.querySelector(`#subtract2`).value);
-    document.querySelector(`#difference`).value = subtract(subtractNumber1, subtractNumber2);
+const subtractNumbers = function(){
+    let subtract1 = Number(document.querySelector(`#subtract1`).value);
+    let subtract2 = Number(document.querySelector(`#subtract2`).value);
+    document.querySelector(`#difference`).value = subtract(subtract1, subtract2);
 }
 document.querySelector(`#subtractNumbers`).addEventListener(`click`,subtractNumbers);
 
