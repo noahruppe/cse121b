@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +10,6 @@
     rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
 </head>
-
 <body>
   <nav>
     <ul id="menu">
@@ -26,6 +24,12 @@
   </nav>
   <main id="gridly">
     <h1>Main Project</h1>
+
+    <section id="quote-generator">
+      <h2>Random Quote Generator</h2>
+      <button id="generate-quote">Generate Quote</button>
+      <p id="quote"></p>
+    </section>
   </main>
 
   <footer>
@@ -35,7 +39,7 @@
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>
-  <script src="scripts/project.js"></script>
+  <script type="module" src="scripts/project.js"></script>
 </body>
-
 </html>
+
