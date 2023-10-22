@@ -1,6 +1,6 @@
 // project.js
 
-// Function to fetch and load quotes from the provided JSON file
+// Function to fetch and load quotes from the JSON file
 async function loadQuotes() {
     const response = await fetch('https://noahruppe.github.io/cse121b/quotes.json');
     if (!response.ok) {
@@ -29,5 +29,5 @@ async function loadQuotes() {
   // Event listener for the "Generate Quote" button
   document.getElementById('generate-quote').addEventListener('click', generateRandomQuote);
   
-  export { generateRandomQuote }; // Export the function if you want to use it as a module
+  export { generateRandomQuote };
   
